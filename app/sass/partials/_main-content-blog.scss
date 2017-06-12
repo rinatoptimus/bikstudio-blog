@@ -1,0 +1,149 @@
+//////////////////
+/* MAIN CONTENT */
+//////////////////
+.main-content-blog {
+  background-color: $main-color-three;
+}
+.date-publication {
+  font-size: 14px;
+  font-family: $italic;
+  color: $secondary-color-three;
+}
+.number-views {
+  display: inline-block;
+  font-size: 14px;
+  color: $secondary-color-four;
+}
+.icon-eye-grey {
+  display: inline-block;
+  width: 20px;
+  height: 11px;
+  background: url('../img/icons/icon-eye-grey.png') no-repeat;
+}
+.avatar-author {
+  float: left;
+  width: 35px;
+  height:35px;
+  margin-right: 10px;
+  background: url('../img/authors/eduard.jpg') no-repeat;
+  border-radius: 50%;
+}
+.name-author {
+  font-size: 18px;
+  font-family: $bold;
+}
+.info-author {
+
+}
+.profession-author {
+  font-size: 13px;
+  font-family: $italic;
+  color: $secondary-color-five;
+}
+.article-intro {
+  font-size: 27px;
+}
+.article-list {
+  margin-top: 10px;
+    li:before {
+      float: left;
+      content:  "\2014";
+      position: relative;
+      left: -5px;
+      color: $main-color-two;
+    }
+}
+.article-list .article-text {
+  overflow: hidden;
+}
+.article-text {
+  font-size: 20px;
+}
+.article-additional-info {
+  background-color: $white;
+}
+.article-additional-info__title {
+  font-size: 29px;
+}
+.article-text--serif {
+  font-family: serif;
+}
+.article-title-secondary {
+  font-size: 36px;
+  font-family: $bold;
+}
+.article-text-important {
+  font-weight: 700;
+}
+.article-rule {
+  border: 5px solid $secondary-color-two;
+}
+.article-img-container {
+  margin: 20px 0;
+}
+.article-img-container__caption {
+  font-size: 16px;
+  color: $secondary-color-three;
+}
+.article-img-list {
+  //width: 870px;
+  //max-width: 870px;
+  margin: 20px 0;
+    li {
+      //display: inline-block;
+      //float: left;
+    }
+}
+
+
+
+.left,
+.right {
+  float: left;
+  width: 48%;
+}
+
+.left {
+  margin-right: 2%;
+  //clear: left;
+}
+
+.right {
+  margin-left: 2%;
+  //clear: right;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.group:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 480px) {
+  .left, .right {
+    float: none;
+    width: auto;
+  }
+}
+
+
+
+
+.sticker {
+  width: 117px;
+  height: 158px;
+  margin: 0 auto;
+  background: url('../img/icons/icon-sticker.png') no-repeat;
+}
+.sticker-subscription {
+  text-align: center;
+}
+
+.article-citate {
+  font-size: 22px;
+  font-family: $bold;
+  text-align: right;
+}

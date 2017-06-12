@@ -1,0 +1,50 @@
+////////////
+/* HEADER */
+////////////
+.header-blog {
+  padding: 40px 0 25px;
+  background-color: $main-color-one;
+}
+.header-blog__img {
+  display: block;
+  max-width: 573px;
+  margin: 0 auto;
+}
+.header-blog__tag {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: $black;
+  color: $white;
+}
+.header-blog__title {
+  color: $white;
+}
+.header-blog__intro {
+  font-size: 18px;
+  color: $white;
+}
+.header-blog__social-list {
+  height: 24px;
+  margin: 0 auto;
+}
+.social-list__item {
+  display: inline-block;
+  padding: 0 3px;
+}
+.item__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.item__icon--fb {
+  background: url('../../img/icons/fb.png') no-repeat;
+}
+.item__icon--vk {
+  background: url('../../img/icons/vk.png') no-repeat;
+}
+.item__icon--tw {
+  background: url('../../img/icons/tw.png') no-repeat;
+}
+.item__icon--ok {
+  background: url('../../img/icons/ok.png') no-repeat;
+}
