@@ -11,10 +11,10 @@
 <body>
 
 <header class="header-blog">
-    <img class="header-blog__img" src="img/img-header/eye.jpg" alt="">
+    <img class="header-blog__img" src="img/img-header/eye2.png" alt="">
     <a href="#" class="tag header-blog__tag">Исследование</a>
     <h1 class="header-blog__title">Верстка сайтов для людей с ограниченными возможностями</h1>
-    <p class="header-blog__intro">Мы подготовили исследование о современных возможностях подобных интерфейсов</p>
+    <p class="article-text--serif header-blog__intro">Мы подготовили исследование о современных возможностях подобных интерфейсов</p>
     <ul class="header-blog__social-list">
         <li class="social-list__item">
             <a href="#" class="item__icon item__icon--fb"></a>
@@ -32,221 +32,233 @@
 </header>
 
 <div class="main-content-blog">
-    <div class="wrapper-blog">
-        <div class="grid">
-            <div class='grid__col grid__col--2-of-12'>
-                <p class="date-publication">сегодня <span>20:15</span></p>
-            </div>
-            <div class='grid__col grid__col--2-of-12'>
-                <div class="icon-eye-grey"></div>
-                <p class="number-views">14 555</p>
-            </div>
-            <div class='grid__col grid__col--push-4-of-12 grid__col--4-of-12'>
-                <div class="avatar-author"></div>
-                <div class="info-author">
-                    <p class="name-author">Эдуард Хажеев</p>
-                    <p class="profession-author">frontend-разработчик</p>
+    <!--<div class="wrapper-blog">-->
+        <!--<div class="grid">-->
+            <!--<div class='grid__col grid__col&#45;&#45;2-of-12'>-->
+                <!--<p class="date-publication">сегодня <span>20:15</span></p>-->
+            <!--</div>-->
+            <!--<div class='grid__col grid__col&#45;&#45;2-of-12'>-->
+                <!--<div class="icon-eye-grey icon-eye-grey&#45;&#45;margin-left"></div>-->
+                <!--<p class="number-views">14 555</p>-->
+            <!--</div>-->
+            <!--<div class='grid__col grid__col&#45;&#45;push-5-of-12 grid__col&#45;&#45;3-of-12'>-->
+                <!--<div class="avatar-author avatar-author&#45;&#45;pos"></div>-->
+                <!--<div class="info-author">-->
+                    <!--<p class="name-author name-author&#45;&#45;pos">Эдуард Хажеев</p>-->
+                    <!--<p class="profession-author profession-author&#45;&#45;pos">frontend-разработчик</p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<p class="article-intro article-intro&#45;&#45;pos">До недавнего времени версии сайтов для людей с ограниченными возможностями были только у ресурсов государственных и муниципальных структур. К тому их обязывал Федеральный Закон "Об обеспечении доступа к информации". К счастью, забота о доступности предоставляемой информации всем категория граждан стала нормой — компании изучают вопрос о возможности совмещения хорошего дизайна с реализацией сайтов и сервисов "для всех".</p>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Мы подготовили исследование о современных возможностях подобных интерфейсов и решили опубликовать в виде серии статей.</p>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Мы расскажем о дополнительном функционале, правилах верстки, удобстве визуальной среды и прочих аспектах, требования к которым отражены в стандартах. А также попытаемся объяснить, как это поможет людям с различными ограничениями с легкостью работать в интернете.</p>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">В этой статье начнем с обзора лучших мировых практик.</p>-->
+
+        <!--<div class="sidenote sidenote-left">-->
+            <!--<p class="sidenote-title">WCAG</p>-->
+            <!--<p class="sidenote__text"><a href="#" class="sidenote__link">Рекомендации</a> по доступности содержимого веб-ресурсов</p>-->
+        <!--</div>-->
+
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">За стандарты разработки сайтов для людей с ограниченными возможностями отвечает WCAG (Web Content Accessibility Guidelines), т. е. рекомендации по доступности содержимого веб-ресурсов. Последняя версия появилась в декабре 2008 года в рамках Инициативы по обеспечению доступности W3C и включила в себя требования не только к сайтам, но и ко всем веб-платформам в целом.</p>-->
+        <!--<h2 class="article-title-secondary article-title-secondary&#45;&#45;pos">Доступность веб-ресурса</h2>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Мы обозначили основные правила подкрепления мультимедийного контента текстовым эквивалентом, а также подобрали ряд примеров, демонстрирующий их выполнение:</p>-->
+        <!--<div class="article-additional-info article-additional-info&#45;&#45;pos">-->
+            <!--<h3 class="article-additional-info__title article-additional-info__title&#45;&#45;pos">Подобрали ряд примеров, демонстрирующих их выполнение:</h3>-->
+            <!--<ul class="article-list">-->
+                <!--<li>-->
+                    <!--<p class="article-text article-text&#45;&#45;serif"><span class="article-text-important article-text&#45;&#45;serif">Элементы управления должны иметь описание назначения.</span>-->
+                    <!--Продемонстрируем это на примере сайта МБУ "Лицей № 57" г. о. Тольятти school57.tgl.ru, являющегося победителем Общероссийского рейтинга школьных сайтов. У каждой ссылки на другую страницу есть альтернативное описание "Страница n"-->
+                    <!--</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="article-text article-text&#45;&#45;serif"><span class="article-text-important article-text&#45;&#45;serif">Медиаконтент</span>, а также контент для создания специфического восприятия должен иметь краткое описание содержания.</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="article-text article-text&#45;&#45;serif"><span class="article-text-important">Контент</span>, созданный в целях оформления, должен игнорироваться скринридерами.</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="article-text article-text&#45;&#45;serif"><span class="article-text-important">Для капчи должна описываться ее цель.</span> Кроме того, должны быть предоставлены альтернативные формы капчи, доступные для других типов восприятия, помимо визуального.</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="article-text article-text&#45;&#45;serif"><span class="article-text-important">Картинки и ссылки должны иметь альтернативное описание (alt="").</span> На сайте ранее описанного лицея у всех картинок, несущих смысл, есть альтернативное описание.</p>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Стоит сказать, что совместить все требования стандартов с крутым дизайном, отлаженным-->
+            <!--функционалом и кроссбраузерностью практически невозможно.-->
+            <!--Соблюдение всей строгости правил может в значительной мере повлиять на фирменный стиль компании, на удобство-->
+            <!--интерфейса для среднестатистического пользователя, на способ подачи информации и многое другое.</p>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Стандарт следует воспринимать не как строгий гайдлайн, но как рекомендацию, которая-->
+            <!--значительно расширяет аудиторию ресурса.</p>-->
+
+        <!--<div class="article-rule">-->
+            <!--<p class="article-rule__text article-text&#45;&#45;serif">Проектируя сайт, нужно сразу продумывать иерархию смыслов, удобство навигации, популярность тех или иных разделов, функциональное назначение всех элементов, логику расположения инфоблоков.</p>-->
+        <!--</div>-->
+
+        <!--<h2 class="article-title-secondary">Цвет</h2>-->
+        <!--<p class="article-additional-info__text">Не рекомендуется использовать цвет в качестве единственного визуального средства передачи информации или обозначения действия.</p>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Вероятно, немногие знают, что около 8% мужчин и 0.5% женщин на планете страдают различными видами цветовой слепоты. Люди с таким заболеванием воспринимают цвета иначе. Именно поэтому они могут легко запутаться в обозначениях, которые задаются только с помощью цвета. Ведь, скажем, отличить предупреждение от успешно совершенного действия по цветному кружку или полоске окажется неразрешимой задачей. На рисунке изображена стандартная палитра цветов для людей с различными отклонениями в восприятии цвета. Согласитесь, что отличить красный от зеленого становится довольно сложно.</p>-->
+        <!--<figure class="article-img-container&#45;&#45;single">-->
+            <!--<img src="img/img-article/squares.jpg" alt="" title="">-->
+            <!--<figcaption class="article-img-container__caption">Стандартная палитра цветов для людей с различными отклонениями в восприятии цвета.</figcaption>-->
+        <!--</figure>-->
+        <!--<p class="article-additional-info__text">Именно поэтому, в процессе дизайна стоит комбинировать цвет с другими идентификационными знаками.</p>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">В вопросах обычно пишут ерунду — игнорируйте их. Исполнители просят намекнуть на цену, предлагают изменить условия задания. Иногда они пытаются сообщить вам свой номер телефона. Такие комментарии администраторы удаляют.</p>-->
+        <!--<ul class="article-img-list figures-group">-->
+            <!--<li class="left-figure-container">-->
+                <!--<figure class="article-img-container">-->
+                    <!--<img src="https://placehold.it/422x570&text=Left" alt="" title="">-->
+                    <!--<figcaption class="article-img-container__caption">В вопросах исполнители уточняют детали</figcaption>-->
+                <!--</figure>-->
+            <!--</li>-->
+            <!--<li class="right-figure-container">-->
+                <!--<figure class="article-img-container">-->
+                    <!--<img src="https://placehold.it/422x570&text=Right" alt="" title="">-->
+                    <!--<figcaption class="article-img-container__caption">В предложениях — сообщают цену. На предложения можно согласиться</figcaption>-->
+                <!--</figure>-->
+            <!--</li>-->
+        <!--</ul>-->
+        <!--<p class="article-additional-info__text">Цвет текста и фона могут быть выбраны пользователем.</p>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Как было сказано ранее, некоторые пользователи имеют проблемы с цветовосприятием. Поэтому возможность индивидуальной настройки цветов оказывается очень важной. В то же время, ее интеграция в интерфейс не является технически сложной, что существенно упрощает процесс внедрения данной опции в любой сайт. В качестве примера хотелось бы привести сайт РосБанка, с довольно гибкими настройками стиля страницы: можно изменить цвет фона и текста, изменить настройки контрастности, включить/отключить изображения.</p>-->
+        <!--<div style="max-width:870px;height:500px;margin-top: 58px;margin-bottom: 96px;margin-left:-34px;border:1px solid grey;">Слайдер</div>-->
+        <!--<h2 class="article-title-secondary">Управление</h2>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Движения, требующие определенной точности, такие как: наведение мыши на маленькую область, клик по иконке, перетаскивание карточки — могут быть непосильной задачей для людей с нарушениями опорно-двигательного аппарата.</p>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">На сайте московского банка "Легион" также присутствует версия для слабовидящих людей. Здесь пользователям помимо удобной панели настройки предоставляется и исчерпывающая справка по управлению функциональностью сайта с помощью клавиатуры. При этом не ограничен доступ ввода с помощью мыши.</p>-->
+
+        <!--<div class="sticker-container">-->
+            <!--<div class="sticker">-->
+                <!--<a href="#">Наклейка на копилку</a>-->
+            <!--</div>-->
+            <!--<p class="article-text&#45;&#45;serif sticker-subscription">Наклейка на копилку</p>-->
+            <!--<p class="file-size">(pdf, 45кб)</p>-->
+        <!--</div>-->
+
+        <!--<h2 class="article-title-secondary">Вывод</h2>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Стандарты выдвигают большое количество требований. Многие, такие, как наличие текстового эквивалента мультимедийному контенту, управление с клавиатуры, настройка размера шрифта и разрядки — осуществимы без ущерба дизайну. Однако, если речь о цветах, формах, размерах и инфографике, — дизайнерское видение чаще всего идет вразрез с требованиями стандартов. Ведь любому дизайнеру хочется не только правильно расставить информационные блоки, сделать удобную навигацию и хороший UX, но и создать особую атмосферу сайта, привлечь внимание пользователя, добавить уникальности продукту. Естественно, многие дизайнерские решения не вмещаются в рамки стандартов.</p>-->
+        <!--<p class="article-text article-text&#45;&#45;serif article-text&#45;&#45;pos">Не стоит недооценивать сложность проектирования действительно удобного и функционального сайта "для всех", ведь в процессе важно учесть не только видимую часть, но и всю семантику веб-ресурса.</p>-->
+
+        <!--<div class="grid">-->
+            <!--<div class='grid__col grid__col&#45;&#45;push-3-of-12 grid__col&#45;&#45;9-of-12 article-citate-container'>-->
+                <!--<div class="article-citate-text-container">-->
+                    <!--<p class="article-citate-text">“Политика стала важной частью моей жизни. Она напоминает банку с тараканами. Тут кто кого обхитрит, кто кого обманет. И даже если политики применяют запрещенные приемы друг против друга, они опять встречаются в этой банке.”</p>-->
+                <!--</div>-->
+                <!--<div class="article-citate-author-container">-->
+                    <!--<div class="article-citate-author-container__name">-->
+                        <!--<p class="citate-author-name article-text&#45;&#45;serif">Виталий Кличко</p>-->
+                        <!--<p class="citate-author-profession">Киевский городской голова</p>-->
+                    <!--</div>-->
+                    <!--<div class="article-citate-author-container__avatar">-->
+                        <!--<div class="citate-avatar"></div>-->
+                        <!--<div class="citate-avatar-bg"></div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="grid">-->
+            <!--<div class='grid__col grid__col&#45;&#45;1-of-2'>-->
+                <!--<ul class="social-counters-list">-->
+                    <!--<li>Vkontakte</li>-->
+                    <!--<li>Facebook</li>-->
+                    <!--<li>Twitter</li>-->
+                    <!--<li>Odnoklassniki</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="bottom-tags-container">-->
+            <!--<ul class="social-counters-list">-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Дизайн</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Кличко</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Исследование</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Цвет</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Дизайн</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Кличко</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Цвет</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Исследование</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Исследование</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Цвет</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Дизайн</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#" class="tag social-counters-list__tag">Кличко</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <hr class="article-divider--bottom">
+
+    <div class="last-articles">
+        <p class="last-article__title">Последние статьи</p>
+
+        <div class="slider">
+            <div class="last-article-item">
+                <div class="last-article-item__corner"></div>
+                <a href="#" class="tag last-article__tag">Исследование</a>
+                <p class="text-important last-article-item__title">Как иконки теряют смысл в эпоху диджитализации</p>
+                <p class="article-text--serif last-article-item__text">Писатель в своей работе полагается на универсальность языка, а дизайнер — на единое представление аудитории о тех или иных предметах.</p>
+                <div class="last-article-bottom">
+                    <p class="date-publication date-publication--last-article-bottom">сегодня <span>20:15</span></p>
+                    <div class="icon-eye-grey icon-eye-grey--pos"></div>
+                    <p class="number-views">14 555</p>
                 </div>
             </div>
         </div>
 
-        <p class="article-intro">До недавнего времени версии сайтов для людей с ограниченными возможностями
-            были только у ресурсов государственных и муниципальных структур. К тому их
-            обязывал Федеральный Закон "Об обеспечении доступа к информации". К счастью,
-            забота о доступности предоставляемой информации всем категория граждан стала
-            нормой — компании изучают вопрос о возможности совмещения хорошего дизайна с
-            реализацией сайтов и сервисов "для всех".</p>
-        <p class="article-text">Мы подготовили исследование о современных возможностях подобных интерфейсов и решили
-            опубликовать
-            в виде серии статей.</p>
-        <p class="article-text">Мы расскажем о дополнительном функционале, правилах верстки, удобстве визуальной среды и
-            прочих
-            аспектах, требования к которым отражены в стандартах. А также попытаемся объяснить, как это
-            поможет людям с различными ограничениями с легкостью работать в интернете.</p>
-        <p class="article-text">В этой статье начнем с обзора лучших мировых практик.</p>
-        <p class="article-text">За стандарты разработки сайтов для людей с ограниченными возможностями отвечает WCAG
-            (Web Content
-            Accessibility Guidelines), т. е. рекомендации по доступности содержимого веб-ресурсов. Последняя
-            версия появилась в декабре 2008 года в рамках Инициативы по обеспечению доступности W3C и включила
-            в себя требования не только к сайтам, но и ко всем веб-платформам в целом.</p>
-
-        <h2 class="article-title-secondary">Доступность веб-ресурса</h2>
-        <p class="article-text">Мы обозначили основные правила подкрепления мультимедийного контента текстовым
-            эквивалентом, а также подобрали ряд
-            примеров, демонстрирующий их выполнение:</p>
-
-        <div class="article-additional-info">
-            <h3 class="article-additional-info__title">Подобрали ряд примеров, демонстрирующих их выполнение:</h3>
-            <ul class="article-list">
-                <li>
-                    <p class="article-text article-text--serif"><span
-                            class="article-text-important article-text--serif">Элементы управления должны иметь описание назначения.</span>
-                        Продемонстрируем это на примере
-                        сайта МБУ "Лицей № 57" г. о. Тольятти school57.tgl.ru, являющегося победителем Общероссийского
-                        рейтинга
-                        школьных сайтов. У каждой ссылки на другую страницу есть альтернативное описание "Страница n"
-                    </p>
-                </li>
-                <li>
-                    <p class="article-text article-text--serif"><span
-                            class="article-text-important article-text--serif">Медиаконтент</span>, а также контент для
-                        создания специфического восприятия должен иметь краткое описание содержания.</p>
-                </li>
-                <li>
-                    <p class="article-text article-text--serif"><span class="article-text-important">Контент</span>,
-                        созданный в целях оформления, должен игнорироваться скринридерами.</p>
-                </li>
-                <li>
-                    <p class="article-text article-text--serif"><span class="article-text-important">Для капчи должна описываться ее цель.</span>
-                        Кроме того, должны быть предоставлены альтернативные
-                        формы капчи, доступные для других типов восприятия, помимо визуального.</p>
-                </li>
-                <li>
-                    <p class="article-text article-text--serif"><span class="article-text-important">Картинки и ссылки должны иметь альтернативное описание (alt="").</span>
-                        На сайте ранее описанного
-                        лицея у всех картинок, несущих смысл, есть альтернативное описание.</p>
-                </li>
-            </ul>
+        <div class="all-articles-link-container">
+            <a href="#" class="all-articles-link">Все статьи</a>
         </div>
-
-        <p class="article-text">Стоит сказать, что совместить все требования стандартов с крутым дизайном, отлаженным
-            функционалом и кроссбраузерностью практически невозможно.
-            Соблюдение всей строгости правил может в значительной мере повлиять на фирменный стиль компании, на удобство
-            интерфейса для среднестатистического пользователя, на способ подачи информации и многое другое.</p>
-        <p class="article-text">Стандарт следует воспринимать не как строгий гайдлайн, но как рекомендацию, которая
-            значительно расширяет аудиторию ресурса.</p>
-
-        <div class="article-rule">
-            <p class="article-text article-text--serif">Проектируя сайт, нужно сразу продумывать иерархию смыслов,
-                удобство навигации, популярность тех или иных разделов, функциональное назначение всех элементов, логику
-                расположения инфоблоков.</p>
-        </div>
-
-        <h2 class="article-title-secondary">Цвет</h2>
-        <h3 class="article-additional-info__title">Не рекомендуется использовать цвет в качестве единственного
-            визуального средства передачи информации или обозначения действия.</h3>
-        <p class="article-text article-text--serif">Вероятно, немногие знают, что около 8% мужчин и 0.5% женщин на
-            планете страдают различными видами цветовой слепоты. Люди с таким заболеванием воспринимают цвета иначе.
-            Именно поэтому они могут легко
-            запутаться в обозначениях, которые задаются только с помощью цвета. Ведь, скажем, отличить предупреждение от
-            успешно совершенного действия по цветному кружку или полоске окажется неразрешимой задачей.
-            На рисунке изображена стандартная палитра цветов для людей с различными отклонениями в восприятии цвета.
-            Согласитесь, что отличить красный от зеленого становится довольно сложно.</p>
-        <figure class="article-img-container">
-            <img src="img/img-article/squares.jpg" alt="" title="">
-            <figcaption class="article-img-container__caption">Стандартная палитра цветов для людей с различными
-                отклонениями в восприятии цвета.
-            </figcaption>
-        </figure>
-        <h3 class="article-additional-info__title">Не рекомендуется использовать цвет в качестве единственного
-            визуального средства передачи информации или обозначения действия.</h3>
-        <p class="article-text article-text--serif">В вопросах обычно пишут ерунду — игнорируйте их. Исполнители просят
-            намекнуть на цену, предлагают изменить условия задания. Иногда они пытаются сообщить вам свой номер
-            телефона. Такие комментарии администраторы удаляют.</p>
-        <ul class="article-img-list group">
-            <li class="left">
-                <figure class="article-img-container">
-                    <img src="https://placehold.it/422x570&text=Left" alt="" title="">
-                    <figcaption class="article-img-container__caption">В вопросах исполнители уточняют детали
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="right">
-                <figure class="article-img-container">
-                    <img src="https://placehold.it/422x570&text=Right" alt="" title="">
-                    <figcaption class="article-img-container__caption">В предложениях — сообщают цену. На предложения
-                        можно согласиться
-                    </figcaption>
-                </figure>
-            </li>
-
-            <li class="left">
-                <figure class="article-img-container">
-                    <img src="https://placehold.it/422x570&text=Left" alt="" title="">
-                    <figcaption class="article-img-container__caption">В вопросах исполнители уточняют детали
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="right">
-                <figure class="article-img-container">
-                    <img src="https://placehold.it/422x570&text=Right" alt="" title="">
-                    <figcaption class="article-img-container__caption">В предложениях — сообщают цену. На предложения
-                        можно согласиться
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="left">
-                <figure class="article-img-container">
-                    <img src="https://placehold.it/422x570&text=Left" alt="" title="">
-                    <figcaption class="article-img-container__caption">В вопросах исполнители уточняют детали
-                    </figcaption>
-                </figure>
-            </li>
-            <li class="right">
-                <figure class="article-img-container">
-                    <img src="https://placehold.it/422x570&text=Right" alt="" title="">
-                    <figcaption class="article-img-container__caption">В предложениях — сообщают цену. На предложения
-                        можно согласиться
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
-        <h3 class="article-additional-info__title">Цвет текста и фона могут быть выбраны пользователем.</h3>
-        <p class="article-text article-text--serif">Как было сказано ранее, некоторые пользователи имеют проблемы с
-            цветовосприятием. Поэтому возможность индивидуальной
-            настройки цветов оказывается очень важной. В то же время, ее интеграция в интерфейс не является технически
-            сложной,
-            что существенно упрощает процесс внедрения данной опции в любой сайт. В качестве примера хотелось бы
-            привести сайт
-            РосБанка, с довольно гибкими настройками стиля страницы: можно изменить цвет фона и текста, изменить
-            настройки
-            контрастности, включить/отключить изображения.</p>
-        <div>Слайдер</div>
-        <h3 class="article-additional-info__title">Управление</h3>
-        <p class="article-text article-text--serif">Движения, требующие определенной точности, такие как: наведение мыши
-            на маленькую
-            область, клик по иконке, перетаскивание карточки — могут быть непосильной задачей для людей с нарушениями
-            опорно-двигательного
-            аппарата. На сайте московского банка "Легион" также присутствует версия для слабовидящих людей. Здесь
-            пользователям помимо удобной панели настройки
-            предоставляется и исчерпывающая справка по управлению функциональностью сайта с помощью клавиатуры. При этом
-            не ограничен доступ ввода с помощью мыши.</p>
-
-        <div class="sticker-container">
-            <div class="sticker">
-                <a href="#">Наклейка на копилку</a>
-            </div>
-            <p class="sticker-subscription">Наклейка на копилку</p>
-            <p class="sticker-subscription">(pdf, 45кб)</p>
-        </div>
-
-        <h3 class="article-additional-info__title">Вывод</h3>
-        <p class="article-text article-text--serif">Стандарты выдвигают большое количество требований. Многие, такие,
-            как наличие текстового эквивалента
-            мультимедийному контенту, управление с клавиатуры, настройка размера шрифта и разрядки — осуществимы без
-            ущерба дизайну. Однако, если речь о
-            цветах, формах, размерах и инфографике, — дизайнерское видение чаще всего идет вразрез с требованиями
-            стандартов. Ведь любому дизайнеру хочется
-            не только правильно расставить информационные блоки, сделать удобную навигацию и хороший UX, но и создать
-            особую атмосферу сайта, привлечь внимание
-            пользователя, добавить уникальности продукту. Естественно, многие дизайнерские решения не вмещаются в рамки
-            стандартов.</p>
-        <p class="article-text article-text--serif">Не стоит недооценивать сложность проектирования действительно
-            удобного и функционального сайта "для всех", ведь в процессе важно учесть не только
-            видимую часть, но и всю семантику веб-ресурса.</p>
-
-
-        <div class="grid">
-            <div class='grid__col grid__col--push-3-of-12 grid__col--9-of-12'>
-                <p class="article-citate">“Политика стала важной частью моей жизни. Она напоминает банку с тараканами.
-                    Тут кто кого обхитрит, кто кого обманет. И даже если политики применяют
-                    запрещенные приемы друг против друга, они опять встречаются в этой банке.”</p>
-            </div>
-        </div>
-
-
     </div>
+    <!-- last-articles end-->
+
+    <div class="wrapper-article-subscribe">
+        <div class="wrapper-blog-subscribe">
+            <div class='grid'>
+                <div class='grid__col grid__col--2-of-5'>
+                    <div class="announce-img"></div>
+                    <div class="announce-text">
+                        <p class="announce-date">На следующей неделе</p>
+                        <p class="announce-title">Дизайн-мышление: карты эмпатии</p>
+                    </div>
+                </div>
+                <div class='grid__col grid__col--3-of-5'>
+                    <form action="" class="form-subscribe-blog">
+                        <input type="mail" placeholder="Введите ваш email" class="input-ghost">
+                        <input type="submit" value="Подписаться" class="btn-blog">
+                    </form>
+                    <p class="blog-form-subscribe__text">Подписываетесь на наши еженедельные статьи</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- wrapper-article-subscribe end-->
+
 </div>
+
 
 
 <script src="js/libs.min.js"></script>

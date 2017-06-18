@@ -2,30 +2,53 @@
 /* HEADER */
 ////////////
 .header-blog {
-  padding: 40px 0 25px;
+  padding: 44px 0 43px;
   background-color: $main-color-one;
 }
 .header-blog__img {
   display: block;
-  max-width: 573px;
+  /*max-width: 573px;*/
+  max-width: 384px;
   margin: 0 auto;
 }
 .header-blog__tag {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 35px;
+  margin-bottom: 28px;
+  padding: 9px 19px;
   background-color: $black;
+  text-transform: $caps;
   color: $white;
+  &:hover {
+    background-color: $dark;
+  }
 }
 .header-blog__title {
+  width: 45%;
+  margin: 0 auto;
+  line-height: 52px;
   color: $white;
+  @include laptop {
+    width: 98%;
+    font-size: 35px;
+  }
+  @include mobile-l {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 .header-blog__intro {
-  font-size: 18px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 20px;
   color: $white;
+  @include laptop {
+    padding: 0 5px;
+  }
 }
 .header-blog__social-list {
   height: 24px;
-  margin: 0 auto;
+  margin: 24px auto 0;
 }
 .social-list__item {
   display: inline-block;
@@ -35,6 +58,9 @@
   display: block;
   width: 24px;
   height: 24px;
+  &:hover {
+    opacity: 0.7;
+  }
 }
 .item__icon--fb {
   background: url('../../img/icons/fb.png') no-repeat;

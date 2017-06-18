@@ -20,6 +20,10 @@
   height: 11px;
   background: url('../img/icons/icon-eye-grey.png') no-repeat;
 }
+.icon-eye-grey--margin-left {
+  margin-right: 4px;
+  margin-left: -20px;
+}
 .avatar-author {
   float: left;
   width: 35px;
@@ -28,122 +32,186 @@
   background: url('../img/authors/eduard.jpg') no-repeat;
   border-radius: 50%;
 }
+.avatar-author--pos {
+  margin-top: -11px;
+  margin-right: 16px;
+  margin-left: 7px;
+}
 .name-author {
   font-size: 18px;
   font-family: $bold;
 }
-.info-author {
-
+.name-author--pos {
+  margin-top: -13px;
 }
 .profession-author {
   font-size: 13px;
   font-family: $italic;
   color: $secondary-color-five;
 }
+.profession-author--pos {
+    margin-top: 3px;
+}
 .article-intro {
   font-size: 27px;
+  line-height: 34px;
 }
-.article-list {
-  margin-top: 10px;
-    li:before {
-      float: left;
-      content:  "\2014";
-      position: relative;
-      left: -5px;
-      color: $main-color-two;
-    }
+.article-intro--pos {
+  margin-top: 16px;
+  margin-bottom: 44px;
 }
-.article-list .article-text {
-  overflow: hidden;
+
+.article-text--pos {
+  margin-bottom: 30px;
 }
-.article-text {
-  font-size: 20px;
-}
-.article-additional-info {
-  background-color: $white;
-}
-.article-additional-info__title {
-  font-size: 29px;
-}
-.article-text--serif {
-  font-family: serif;
-}
+
 .article-title-secondary {
+  margin-bottom: 32px;
   font-size: 36px;
   font-family: $bold;
 }
-.article-text-important {
-  font-weight: 700;
+.article-title-secondary--pos {
+    margin-top: 77px;
+    margin-bottom: 32px;
 }
+
 .article-rule {
+  margin-top: 38px;
+  margin-bottom: 60px;
+  margin-right: -40px;
+  margin-left: -35px;
+  padding: 21px 30px;
   border: 5px solid $secondary-color-two;
+  @include laptop-l {
+    margin-right: 10px;
+  }
 }
-.article-img-container {
-  margin: 20px 0;
+.article-rule__text {
+    font-size: 26px;
+    font-family: $italic;
+    line-height: 36px;
 }
 .article-img-container__caption {
   font-size: 16px;
+  text-align: center;
   color: $secondary-color-three;
 }
+.article-img-container--single {
+  margin: 60px -35px 68px;
+  @include laptop-l {
+    margin-right: 10px;
+  }
+    .article-img-container__caption {
+      margin-top: 22px;
+      margin-left: 34px;
+      text-align: left;
+    }
+}
+
 .article-img-list {
-  //width: 870px;
-  //max-width: 870px;
-  margin: 20px 0;
+  margin: 51px -38px 94px;
+  @include laptop-l {
+    margin-right: 10px;
+  }
     li {
       //display: inline-block;
       //float: left;
     }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    figure {
+      margin: 0;
+    }
+    .article-img-container__caption {
+      margin-top: 13px;
+    }
 }
 
 
-
-.left,
-.right {
+.left-figure-container,
+.right-figure-container {
   float: left;
   width: 48%;
 }
-
-.left {
+.left-figure-container {
   margin-right: 2%;
-  //clear: left;
 }
-
-.right {
+.right-figure-container {
   margin-left: 2%;
-  //clear: right;
 }
 
-img {
+.article-img-container--single img {
   max-width: 100%;
   height: auto;
 }
-.group:after {
+.figures-group:after {
   content:"";
   display: table;
   clear: both;
 }
 @media screen and (max-width: 480px) {
-  .left, .right {
+  .left-figure-container, .right-figure-container {
     float: none;
     width: auto;
   }
 }
 
-
-
-
+.sticker-container {
+  margin-top: 87px;
+  margin-bottom: 86px;
+}
 .sticker {
   width: 117px;
   height: 158px;
   margin: 0 auto;
+  padding-top: 36px;
+  padding-left: 11px;
   background: url('../img/icons/icon-sticker.png') no-repeat;
+  text-align: left;
+    a {
+      line-height: 20px;
+      font-size: 16px;
+      font-family: $bold;
+      text-decoration: none;
+      color: $black;
+    }
 }
 .sticker-subscription {
+  margin-top: 16px;
   text-align: center;
 }
+.file-size {
+  margin-top: 9px;
+  text-align: center;
+  font-size: 11px;
+  color: $secondary-color-six;
+}
 
-.article-citate {
-  font-size: 22px;
-  font-family: $bold;
-  text-align: right;
+.social-counters-list {
+  margin-top: 60px;
+  margin-bottom: -9px;
+    li {
+      display: inline-block;
+      height: 36px;
+      margin-right: 5px;
+    }
+}
+.social-counters-list__tag {
+  margin-right: 5px;
+  padding: 5px 15px;
+  background-color: $white;
+  border: 1px solid $secondary-color-seven;
+  border-radius: 4px;
+  font-size: 14px;
+  color: $secondary-color-six;
+}
+.bottom-tags-container {
+  margin-bottom: 60px;
+}
+.article-divider--bottom {
+  max-width: 1048px;
+  margin: 0 auto;
+  border: 1px solid $secondary-color-eight;
 }

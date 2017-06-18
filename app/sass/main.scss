@@ -1,7 +1,15 @@
 @import 'fonts/fonts';
 @import 'variables/_variables';
+@import 'media-queries/_media-queries';
+
 @import 'grid/_grid2';
 @import 'common/_common';
 
 @import 'partials/_header';
 @import 'partials/main-content-blog';
+@import 'partials/_additional-info';
+@import 'partials/_sidenotes';
+@import 'partials/_article-citate';
+@import 'partials/_last-articles';
+@import 'partials/_article-subscribe';
+//@import 'partials/_blog-footer';
